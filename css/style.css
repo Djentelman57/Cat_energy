@@ -1,0 +1,173 @@
+@font-face { 
+    font-family:"Oswald";
+    src:url(../fonts/oswaldregular.woff2) format("woff2"),url(../fonts/oswaldregular.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-stretch:normal;
+    font-display:swap;
+    unicode-range:u -2054
+}
+
+@font-face {
+    font-family:"Oswald Medium";
+    src:url(../fonts/oswaldmedium.woff2) format("woff2"),url(../fonts/oswaldmedium.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-stretch:normal;
+    font-display:swap;
+    unicode-range:u -2054
+}
+
+html {
+    font-family:sans-serif;
+}
+
+body { 
+    margin:0;
+    font-family:'Oswald','Arial',sans-serif;
+    font-weight:400;
+    color:#111;
+}
+
+.main-header {
+    background-image: url(../img/index-background-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 50% 700px;
+    background-position: right top;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 85%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.page-header-wrapper {
+    display: flex;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    padding-top: 24px;
+}
+
+.page-header-inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin-right: auto;
+    flex-shrink: 0;
+}
+
+.main-header-logo {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-navigation {
+    position: relative;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    line-height: 30px;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.site-navigation .site-navigation-item {
+    margin-right: 38px;
+    border: 0;
+}
+
+.site-navigation-item:last-child {
+    border: 0;
+    margin-right: 0;
+}
+
+.site-navigation a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.site-navigation li:nth-child(1) {
+    text-decoration: underline;
+}
+
+.intro {
+    padding-left: 80px;
+    padding-bottom: 245px;
+}
+
+.intro-title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: none;
+    margin-top: 110px;
+}
+
+.intro-pic {
+    right: 540px;
+    top: 80px;
+    position: absolute;
+}
+
+.main-header-image {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.intro-desc {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.intro-btn {
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.categories-link {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.categories-title {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.example-value {
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.example-legend {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.stripe {
+    font-size: 20px;
+    line-height: 30px;
+}
